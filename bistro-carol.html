@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lets eat</title>
+</head>
+<body>
+
+<!-- header -->
+<div class="row">
+	<div class="column-left">
+	  <div class="logo">
+	  	<img src="assets/logo/logo.png">
+	  </div>
+	</div>	
+	<div class="column-right">
+	  <div class="nav">
+	  	<a href="index.html">Acasa</a>
+	  	<a href="about.html">Despre noi </a>
+	  	<a href="contact.html"> Contact</a>
+	  	<a href="#"><i class="fa fa-facebook">Log in</i></a>
+	  </div>	
+	</div>
+</div>
+
+
+<div class="container">
+
+	<h2>Bistro Carol</h2>
+
+	<div class="navbar">
+		
+		  <a href="#" >Meniul zilei</a>
+		  <a href="#">Ciorbe/Supe</a>
+		  <a href="#">Antreuri</a>
+		  <a href="#">Carne pasare</a>
+		  <a href="#">Carne porc</a>
+		  <a href="#">Carne vita</a>
+		  <a href="#">Peste</a>
+		  <a href="#">Paste</a>
+		  <a href="#">Pizza</a>
+		  <a href="#">Burgeri</a>
+		  <a href="#">Salate</a>
+		  <a href="#">Desert</a>
+		  <a href="#">Garnituri/Paine/Sosuri</a>
+
+		</ul>
+	</div>
+
+	<select>
+	  <option value="selection">Selectare pret</option>
+	  <option value="increase">Ordonare crescatoare</option>
+	  <option value="decrease">Ordonare descrescatoare</option>
+	</select>
+	
+	<div class="row">
+	  	<div class="column left">
+		    <div class="column item">
+		    	<a href="#">
+			    	<img src="assets/product/product1.jpg">
+				    <h4>Ciorba de burta</h4>
+				</a>
+			    <p class="ingredients">Burta vita, legume, ou, smantana – 100/380g</p>
+			    <span class="price">Pret: 10 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>
+			</div>
+
+			<div class="column item">
+			    <a href="#">
+			    	<img src="assets/product/product2.jpg">
+				    <h4>Supa de pui si taitei</h4>
+				</a>
+			    <p class="ingredients">Piept pui, morcov, telina, fidea – 50/380g</p>
+			    <span class="price">Pret: 9 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>
+			</div>
+
+			<div class="column item">
+			    <a href="#">
+			    	<img src="assets/product/product3.jpg">
+				    <h4>Chicken Burger</h4>
+				</a>
+			    <p class="ingredients">piept pui, branza cedar, salata, rosii, castraveti acri, ceapa sos – 250g</p>
+			    <span class="price">Pret: 12 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>
+			</div>
+
+			<div class="column item">
+			    <a href="#">
+			    	<img src="assets/product/product4.jpg">
+				    <h4>Meniu Burger</h4>
+				</a>
+			    <p class="ingredients">burger, cartofi prajiti, sos – 380g</p>
+			    <span class="price">Pret: 16 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">	
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>		
+			</div>
+	  </div>
+
+	  <div class="column right">
+	    <h3>Comanda</h3>
+	    <div class="column right item">
+	    	<span>2 x Ciorba de burta</span>
+	    	<span>1 x Piept pui la gratar</span>
+	    	<span>Total:</span>
+	    </div>
+	    <div class="column right item">
+	    	<p>10 lei<i class="fa fa-trash-o delete"></i></p>
+	    	<p>15 lei<i class="fa fa-trash-o delete"></i></p>
+	    	<span>25 lei</span>
+	    </div>
+	    <h4>Adresa livrare:</h4>
+	    <form class="order" action="#" method="#">
+		    <label id="town" name="town">Oras</label>
+		    <input type="text" name="town" id="town">
+		    <label id="address" name="address">Adresa</label>
+		    <input type="text" name="address">
+		    <label id="phone" name="phone">Telefon</label>
+		    <input type="phone" name="phone">
+		   	<input type="submit" value="Trimite">
+		   	<input type="submit" value="Anulare">
+	   </form>
+	  </div>
+
+	  <div class="column left">
+		    <div class="column item">
+		    	<a href="#">
+			    	<img src="assets/product/product5.jpg">
+				    <h4>Meniu aripioare</h4>
+				</a>
+			    <p class="ingredients">aripioare  pui usor picante, cartofi prajiti, sos coctail 450g</p>
+			    <span class="price">Pret: 21 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanda <i class="fa fa-shopping-cart"></i></button>
+			</div>
+
+			<div class="column item">
+			    <a href="#">
+			    	<img src="assets/product/product6.jpg">
+				    <h4>Crochete de cascaval cu masline</h4>
+				</a>
+			    <p class="ingredients">Crochete de cascaval cu masline 150g</p>
+			    <span class="price">Pret: 12 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>
+			</div>
+
+			<div class="column item">
+			    <a href="#">
+			    	<img src="assets/product/product7.jpg">
+				    <h4>Ciuperci gorgonzola</h4>
+				</a>
+			    <p class="ingredients">Ciuperci la cuptor cu gorgonzola – 200g</p>
+			    <span class="price">Pret: 14 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>
+			</div>
+
+			<div class="column item">
+			    <a href="#">
+			    	<img src="assets/product/product8.jpg">
+				    <h4>Rulouri de ficatei cu bacon</h4>
+				</a>
+			    <p class="ingredients">200g</p>
+			    <span class="price">Pret: 14 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>			
+			</div>
+	  </div>
+
+	  <div class="column left">
+		    <div class="column item">
+		    	<a href="#">
+			    	<img src="assets/product/product9.jpg">
+				    <h4>Piept pui la gratar</h4>
+				</a>
+			    <p class="ingredients">200g</p>
+			    <span class="price">Pret: 15 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>
+			</div>
+
+			<div class="column item">
+			    <a href="#">
+			    	<img src="assets/product/product10.jpg">
+				    <h4>Pulpa pui la gratar(fara os)</h4>
+				</a>
+			    <p class="ingredients">250g</p>
+			    <span class="price">Pret: 15 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>
+			</div>
+
+			<div class="column item">
+			    <a href="#">
+			    	<img src="assets/product/product11.jpg">
+				    <h4>Parma chef de pui si salata rosii cherry</h4>
+				</a>
+			    <p class="ingredients">piept pui,prosciutto crudo, rosii uscate, smantana, ciuperci, praz, cascaval, condimente–400g</p>
+			    <span class="price">Pret: 25 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>
+			</div>
+
+			<div class="column item">
+			    <a href="#">
+			    	<img src="assets/product/product12.jpg">
+				    <h4>Cotlet porc la gratar</h4>
+				</a>
+			    <p class="ingredients">200g</p>
+			    <span class="price">Pret: 18 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>			
+			</div>
+	  </div>
+
+	  <div class="column left">
+		    <div class="column item">
+		    	<a href="#">
+			    	<img src="assets/product/product13.jpg">
+				    <h4>Snitel de porc</h4>
+				</a>
+			    <p class="ingredients">Cotlet porc, ou, faina 200 g</p>
+			    <span class="price">Pret: 18 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>
+			</div>
+
+			<div class="column item">
+			    <a href="#">
+			    	<img src="assets/product/product14.jpg">
+				    <h4>Muschi de vita cu ciuperci si sos brun</h4>
+				</a>
+			    <p class="ingredients">Muschi de vita cu ciuperci si sos brun – 300g</p>
+			    <span class="price">Pret: 55 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>
+			</div>
+
+			<div class="column item">
+			    <a href="#">
+			    	<img src="assets/product/product15.jpg">
+				    <h4>Muschi de vita cu sos de piper</h4>
+				</a>
+			    <p class="ingredients">Muschi de vita cu sos de piper – 250gg</p>
+			    <span class="price">Pret: 55 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>
+			</div>
+
+			<div class="column item">
+			    <a href="#">
+			    	<img src="assets/product/product16.jpg">
+				    <h4>File salau la gratar</h4>
+				</a>
+			    <p class="ingredients">File salau la gratar – 150g</p>
+			    <span class="price">Pret: 21 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>			
+			</div>
+	  </div>
+
+	  <div class="column left">
+		    <div class="column item">
+		    	<a href="#">
+			    	<img src="assets/product/product17.jpg">
+				    <h4>Pizza Carol</h4>
+				</a>
+			    <p class="ingredients">Sos rosii, sunca presata, bacon, salam uscat, rosii, masline, ardei gras, ciuperci, ceapa rosie, mozzarella 520g</p>
+			    <span class="price">Pret: 19 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>
+			</div>
+
+			<div class="column item">
+			    <a href="#">
+			    	<img src="assets/product/product18.jpg">
+				    <h4>Paste Bolognese</h4>
+				</a>
+			    <p class="ingredients">Rosii, carne vita, ulei masline, paste –spaghete sau penne 450 g</p>
+			    <span class="price">Pret: 19 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>
+			</div>
+
+			<div class="column item">
+			    <a href="#">
+			    	<img src="assets/product/product19.jpg">
+				    <h4>Salata Carol</h4>
+				</a>
+			    <p class="ingredients">Piept de pui, branza feta, salata, castravete, rosie, gogosar, masline, dressing 350g</p>
+			    <span class="price">Pret: 18 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>
+			</div>
+
+			<div class="column item">
+			    <a href="#">
+			    	<img src="assets/product/product20.jpg">
+				    <h4>Salata Greceasca</h4>
+				</a>
+			    <p class="ingredients">Branza feta, rosii, masline, castravete, salata, ardei gras, ceapa, ulei masline, otet balsamic 350g</p>
+			    <span class="price">Pret: 18 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>			
+			</div>
+	  </div>
+
+	  <div class="column left">
+		    <div class="column item">
+		    	<a href="#">
+			    	<img src="assets/product/product21.jpg">
+				    <h4>Cartofi wedges</h4>
+				</a>
+			    <p class="ingredients">250g</p>
+			    <span class="price">Pret: 8 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>
+			</div>
+
+			<div class="column item">
+			    <a href="#">
+			    	<img src="assets/product/product22.jpg">
+				    <h4>Orez cu legume</h4>
+				</a>
+			    <p class="ingredients">Orez, ardei gras, ceapa, morcov 300g</p>
+			    <span class="price">Pret: 6 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>
+			</div>
+
+			<div class="column item">
+			    <a href="#">
+			    	<img src="assets/product/product23.jpg">
+				    <h4>Papanas traditional</h4>
+				</a>
+			    <p class="ingredients">Papanas traditional 160g cu dulceata de afine sau visine 350g</p>
+			    <span class="price">Pret: 8 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>
+			</div>
+
+			<div class="column item">
+			    <a href="#">
+			    	<img src="assets/product/product24.jpg">
+				    <h4>Clatite cu ciocolata</h4>
+				</a>
+			    <p class="ingredients">250g</p>
+			    <span class="price">Pret: 8 lei</span>
+			    <input id="quantity" type="number" name="quantity" value="1" min="1" max="5">
+			    <button>Comanada <i class="fa fa-shopping-cart"></i></button>			
+			</div>
+	  </div>
+
+	</div>
+
+</div>
+
+<!---------------- footer ------------------->
+<footer class="footer">
+	<div class="footer-left">
+		<img src="assets/logo/logo-footer.png">
+		<p class="footer-links">
+			<a href="index.html">Acasa</a> |			
+			<a href="#">Contact</a>
+		</p>
+		<p class="footer-name">iQuest-Academy &copy; 2019</p>
+	</div>
+	<div class="footer-center">
+		<div>
+			<i class="fa fa-phone"></i>
+			<p>0712345678</p>
+		</div>
+		<div>
+			<i class="fa fa-envelope"></i>
+			<p><a href="mailto:support@company.com">support@lets-eat.com</a></p>
+		</div>
+	</div>
+	<div class="footer-right">
+		<p class="footer-about">
+			<span>Despre noi</span>
+					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+		</p>
+		<div class="footer-icons">
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-instagram"></i></a>
+		</div>
+	</div>
+</footer>
+<!------------------------ end footer ---------------------->
+
+</body>
+</html>
