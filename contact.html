@@ -1,60 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Lets eat</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
 </head>
 <body>
 
-<!------------------- header --------------------->
-<div class="row">
-	<div class="column-left">
-	  <div class="logo">
-	  	<img src="assets/logo/logo.png">
-	  </div>
-	</div>	
-	<div class="column-right">
-	  <div class="nav">
-	  	<a href="index.html">Acasa</a>
-	  	<a href="about.html">Despre noi </a>
-	  	<a href="#"> Contact</a>
-	  	<a href="#"><i class="fa fa-facebook">Log in</i></a>
-	  </div>	
-	</div>
-</div>
-<!------------- end header --------------------->
-<div class="container">
-	<h2><strong>Contact</strong></h2>
-	<div class="row">
-	  <div class="column">
-	   
+<header>
+  	<div class="container-nav">
+	    <div class="logo-box">
+	      <a href="/">
+	        <img src="assets/logo/logo.png">
+	      </a>
+	    </div>
+	    <nav>
+	    	<div class="toggle">
+	    		<i class="fas fa-bars menu"></i>
+	    	</div>
+		    <ul>
+			    <li><a href="index.html">Acasa</a></li>
+			    <li><a href="about.html">Despre noi</a></li>
+			    <li><a href="#">Contact</a></li>
+			    <li><a href=""><i class="fab fa-facebook"></i> Log in </a></li>
+		   </ul>
+	  	</nav>
+  	</div>
+</header>
+<main>
+	<h1>Contact</h1>
+<div class="container-contact">
+
+	  <div class="info">
 	    <div class="phone">
-			<i class="fa fa-phone"></i>
-			<p>0712345678</p>
+			<p>
+				<i class="fa fa-phone"></i>
+				0712345678
+			</p>
 		</div>
 		<div class="email">
-			<i class="fa fa-envelope"></i>
-			<p><a href="mailto:support@company.com">support@lets-eat.com</a></p>
+			<p>
+				<i class="fa fa-envelope"></i>
+				<a href="mailto:support@company.com">support@lets-eat.com</a>
+			</p>
 		</div>
 		<div class="address">
-			<i class="fa fa-map-marker"></i>
-			<p>Sediul social: Craiova, Str. Ilie Iancu, Nr. 1, Bl.K, Ap. 1, parter<br>
+			<p>
+				<i class="fa fa-map-marker"></i>
+				<strong>Sediul social:</strong> <br>
+				Craiova, Str. Ilie Iancu, Nr. 1, Bl.K, Ap. 1, parter<br>
 				Nr. J12/345/2019<br>
-				C.U.I RO1234567</p>
+				C.U.I RO1234567
+			</p>
 		</div>
 	  </div>
 
-	  <div class="column">
 	    <div class="media">
-	    	<a href="#"><i class="fa fa-facebook"></i></a>
-			<a href="#"><i class="fa fa-twitter"></i></a>
-			<a href="#"><i class="fa fa-instagram"></i></a>
+	    	<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
 	    </div>
-	  </div>
 </div>
-</div>
+</main>
 
-<!---------------- footer ------------------->
-<footer class="footer">
+<footer>
 	<div class="footer-left">
 		<img src="assets/logo/logo-footer.png">
 		<p class="footer-links">
@@ -79,13 +89,11 @@
 					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
 		</p>
 		<div class="footer-icons">
-			<a href="#"><i class="fa fa-facebook"></i></a>
-			<a href="#"><i class="fa fa-twitter"></i></a>
-			<a href="#"><i class="fa fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
 		</div>
 	</div>
 </footer>
-<!------------------------ end footer ---------------------->
-
 </body>
 </html>
