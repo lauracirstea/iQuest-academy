@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Lets eat</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+	<script src="https://www.unpkg.com/js-carousel@latest/lib/index.min.js"></script>
 </head>
 <body>
 
-<!-- header -->
-<div class="row">
-	<div class="column-left">
-	  <div class="logo">
-	  	<img src="assets/logo/logo.png">
-	  </div>
-	</div>	
-	<div class="column-right">
-	  <div class="nav">
-	  	<a href="index.html">Acasa</a>
-	  	<a href="#">Despre noi </a>
-	  	<a href="contact.html"> Contact</a>
-	  	<a href="#"><i class="fa fa-facebook">Log in</i></a>
-	  </div>	
-	</div>
-</div>
+<header>
+  	<div class="container-nav">
+	    <div class="logo-box">
+	      <a href="/">
+	        <img src="assets/logo/logo.png">
+	      </a>
+	    </div>
+	    <nav>
+	    	<div class="toggle">
+	    		<i class="fas fa-bars menu"></i>
+	    	</div>
+		    <ul>
+			    <li><a href="index.html">Acasa</a></li>
+			    <li><a href="#">Despre noi</a></li>
+			    <li><a href="contact.html">Contact</a></li>
+			    <li><a href=""><i class="fab fa-facebook"></i> Log in </a></li>
+		   </ul>
+	  	</nav>
+  	</div>
+</header>
 
-<div class="container">
-	<h2><strong>Despre noi</strong></h2>
-	<div class="row">
-	  <div class="column">
-	    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
-	  </div>
-	  <div class="column">
-	    <div id="carousel-container">
-		  <img src="assets/big-ben.jpg">
-		  <img src="assets/carol-bistro.jpg">
-		  <img src="assets/casa-dobrescu.jpg">
-		  <img src="assets/spartan.jpg"> 
+<main>
+	<h1>Despre noi</h1>
+	<div class="container-about">
+
+		<div class="column-about">
+		    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
 		</div>
-	  </div>
-	</div>
-</div>
 
-<!---------------- footer ------------------->
-<footer class="footer">
+		 <div class="column-about">
+		    <div id="carousel-container">
+			  <img src="assets/big-ben.jpg">
+			  <img src="assets/carol-bistro.jpg">
+			  <img src="assets/casa-dobrescu.jpg">
+			  <img src="assets/spartan.jpg"> 
+			</div>
+		</div>
+	</div>
+</main>
+
+<footer>
 	<div class="footer-left">
 		<img src="assets/logo/logo-footer.png">
 		<p class="footer-links">
@@ -65,13 +74,19 @@
 					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
 		</p>
 		<div class="footer-icons">
-			<a href="#"><i class="fa fa-facebook"></i></a>
-			<a href="#"><i class="fa fa-twitter"></i></a>
-			<a href="#"><i class="fa fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
 		</div>
 	</div>
 </footer>
-<!------------------------ end footer ---------------------->
+
+<script>
+jscarousel(document.getElementById('carousel-container'), {
+  animationSpeed: 900,
+  itemDuration: 2000
+});
+</script>
 
 </body>
 </html>
