@@ -5,7 +5,6 @@
 	<title>Lets eat</title>
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-	<script src="https://www.unpkg.com/js-carousel@latest/lib/index.min.js"></script>
 </head>
 <body>
 
@@ -16,38 +15,57 @@
 	        <img src="assets/logo/logo.png">
 	      </a>
 	    </div>
-	    <nav>
-	    	<div class="toggle">
-	    		<i class="fas fa-bars menu"></i>
-	    	</div>
+		<nav>
+			<div class="toggle">
+				<i class="fas fa-bars" id="menu-bar"></i>
+		    </div>
 		    <ul>
 			    <li><a href="#">Acasa</a></li>
 			    <li><a href="about.html">Despre noi</a></li>
 			    <li><a href="contact.html">Contact</a></li>
-			    <li><a href=""><i class="fab fa-facebook"></i> Log in </a></li>
+			    <li><a href=""><i class="fab fa-facebook" id=""></i> Log in </a></li>
 		   </ul>
 	  	</nav>
   	</div>
 </header>
 
-<div id="carousel-container">
-	<img src="assets/images/images4.jpg">
-	<img src="assets/images/images2.jpg">
-	<img src="assets/images/images3.jpg">
-	<img src="assets/images/images1.jpg"> 
-</div>
-
-<main>
-	
-	<h1>Alege restaurantul preferat</h1>
-
-	<div class="row">
+<div class="section">
+	<img src="assets/images/slide.jpg">
+	<div class="row text-block">
+		<h1>Alege restaurantul preferat</h1>
 		<form class="search" action="#" method="#">
-			 <input type="text" placeholder="Cauta..." name="search">
+			 <input type="text" placeholder="Cauta restaurant..." name="search">
 			 <button type="submit"><i class="fa fa-search"></i></button>
 		</form>
 	</div>
+</div>
 
+<div class="content">
+	<div class="row">
+		<div>
+			<img src="assets/logo/search.png">
+			<h4>Cautare</h4>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+		</div>
+		<div>
+			<img src="assets/logo/choose.png">
+			<h4>Alegere</h4>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+		</div>
+		<div>
+			<img src="assets/logo/delivery.png">
+			<h4>Livrare</h4>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+		</div>
+		<div>
+			<img src="assets/logo/food.png">
+			<h4>Multumire</h4>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+		</div>
+	</div>
+</div>
+
+<main>
 	<div class="inner">
 		<div class="index">
 			<div class="column-item">
@@ -280,18 +298,7 @@
 	</div>
 </footer>
 
-<script>
-jscarousel(document.getElementById('carousel-container'), {
-  animationSpeed: 900,
-  itemDuration: 2000
-});
+<script type="text/javascript" src="javascript/script.js"></script>
 
-// $(document).ready(function() {
-// 	$('.menu').click(function() {
-// 		$('ul').toggleClass('active');
-// 	})
-// })
-
-</script>
 </body>
 </html>
