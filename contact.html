@@ -23,7 +23,59 @@
 			    <li><a href="index.html">Acasa</a></li>
 			    <li><a href="about.html">Despre noi</a></li>
 			    <li><a href="#">Contact</a></li>
-			    <li><a href=""><i class="fab fa-facebook"></i> Log in </a></li>
+			    <li id="myBtnLogin"><a href="#"><i class="fab fa-facebook" id=""></i> Log in </a></li>
+					<div id="myModalLogin" class="modal-login">
+						<div class="modal-content-login">
+						    <span class="close">&times;</span>
+						    <header class="popupHeader">
+								<span class="header_title">Login</span>
+								<span class="modal_close"><i class="fa fa-times"></i></span>
+							</header>
+					    <section class="popupBody">
+							<div class="social_login">
+								<div>
+									<a href="#" class="social_box fb">
+										<span class="icon"><i class="fab fa-facebook-f"></i></span>
+										<span class="icon_title">Conectare cu Facebook</span>
+									</a>
+									<a href="#" class="social_box google">
+										<span class="icon"><i class="fab fa-google"></i></span>
+										<span class="icon_title">Conectare cu Google</span>
+									</a>
+								</div>
+
+								<div class="centeredText">
+									<span>Sau te poti conecta cu adresa de email</span>
+								</div>
+
+								<div class="action_btns">
+									<form class="user_register">
+										<label>Nume complet</label>
+										<input type="text" />
+										<br />
+
+										<label>Adresa e-mail</label>
+										<input type="email" />
+										<br />
+
+										<label>Parola</label>
+										<input type="password" />
+										<br />
+
+										<div class="checkbox">
+												<input id="send_updates" type="checkbox" />
+												<label for="send_updates">Salveaza datele</label>
+										</div>
+
+										<div class="action_btns">
+												<div class="one_half last"><a href="#" class="btn btn_red">Inregistrare</a></div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
 		   </ul>
 	  	</nav>
   	</div>
@@ -93,6 +145,7 @@
 		</div>
 	</div>
 </footer>
+<script type="text/javascript" src="javascript/modal.js"></script>
 <script type="text/javascript" src="javascript/script.js"></script>
 </body>
 </html>
