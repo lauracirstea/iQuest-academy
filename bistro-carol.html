@@ -23,7 +23,59 @@
 			    <li><a href="index.html">Acasa</a></li>
 			    <li><a href="about.html">Despre noi</a></li>
 			    <li><a href="contact.html">Contact</a></li>
-			    <li><a href=""><i class="fab fa-facebook"></i> Log in </a></li>
+			    <li id="myBtnLogin"><a href="#"><i class="fab fa-facebook" id=""></i> Log in </a></li>
+					<div id="myModalLogin" class="modal-login">
+						<div class="modal-content-login">
+						    <span class="close">&times;</span>
+						    <header class="popupHeader">
+								<span class="header_title">Login</span>
+								<span class="modal_close"><i class="fa fa-times"></i></span>
+							</header>
+					    <section class="popupBody">
+							<div class="social_login">
+								<div>
+									<a href="#" class="social_box fb">
+										<span class="icon"><i class="fab fa-facebook-f"></i></span>
+										<span class="icon_title">Conectare cu Facebook</span>
+									</a>
+									<a href="#" class="social_box google">
+										<span class="icon"><i class="fab fa-google"></i></span>
+										<span class="icon_title">Conectare cu Google</span>
+									</a>
+								</div>
+
+								<div class="centeredText">
+									<span>Sau te poti conecta cu adresa de email</span>
+								</div>
+
+								<div class="action_btns">
+									<form class="user_register">
+										<label>Nume complet</label>
+										<input type="text" />
+										<br />
+
+										<label>Adresa e-mail</label>
+										<input type="email" />
+										<br />
+
+										<label>Parola</label>
+										<input type="password" />
+										<br />
+
+										<div class="checkbox">
+												<input id="send_updates" type="checkbox" />
+												<label for="send_updates">Salveaza datele</label>
+										</div>
+
+										<div class="action_btns">
+												<div class="one_half last"><a href="#" class="btn btn_red">Inregistrare</a></div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
 		   </ul>
 	  	</nav>
   	</div>
@@ -49,10 +101,10 @@
 	</div>
 	<div class="navbar-sub"> </div>
 	<div class="custom-dropdown">
-		<select>
+		<select id="sort">
 			<option value="selection">Selectare pret</option>
-			<option value="increase">Pret crescator</option>
-			<option value="decrease">Pret descrescator</option>
+			<option value="0">Pret crescator</option>
+			<option value="1">Pret descrescator</option>
 		</select>
 	</div>
 	<div class="cart trigger mobile">
@@ -60,7 +112,7 @@
 	</div>
 	<div class="inner">
 		<div class="container">
-			<div class="column-item filter soup">
+			<div data-time="10" class="column-item filter soup">
 				<article class="item">
 				    <a href="#" class="item-image">
 					    <div class="post-image">
@@ -77,7 +129,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter soup">
+			<div data-time="9" class="column-item filter soup">
 				<article class="item">
 					<a href="#" class="item-image">
 						<div class="post-image">
@@ -94,7 +146,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter burger">
+			<div data-time="12" class="column-item filter burger">
 				<article class="item">
 				    <a href="#" class="item-image">
 					    <div class="post-image">
@@ -111,7 +163,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter menu burger">
+			<div data-time="16"class="column-item filter menu burger">
 				<article class="item">
 				    <a href="#" class="item-image">
 					    <div class="post-image">
@@ -128,7 +180,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter menu">
+			<div data-time="21" class="column-item filter menu">
 				<article class="item">
 				    <a href="#" class="item-image">
 					    <div class="post-image">
@@ -145,7 +197,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter appetizer">
+			<div data-time="12" class="column-item filter appetizer">
 				<article class="item">
 				    <a href="#" class="item-image">
 					    <div class="post-image">
@@ -162,7 +214,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter appetizer dressing">
+			<div data-time="14" class="column-item filter appetizer dressing">
 				<article class="item">
 				    <a href="#" class="item-image">
 					    <div class="post-image">
@@ -179,7 +231,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter dressing">
+			<div data-time="14" class="column-item filter dressing">
 				<article class="item">
 				    <a href="#" class="item-image">
 					    <div class="post-image">
@@ -196,7 +248,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter chicken">
+			<div data-time="15" class="column-item filter chicken">
 				<article class="item">
 				    <a href="#" class="item-image">
 					    <div class="post-image">
@@ -213,7 +265,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter chicken">
+			<div data-time="15" class="column-item filter chicken">
 				<article class="item">
 				    <a href="#" class="item-image">
 					    <div class="post-image">
@@ -230,7 +282,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter chicken">
+			<div data-time="25" class="column-item filter chicken">
 				<article class="item">
 				    <a href="#" class="item-image">
 					    <div class="post-image">
@@ -247,7 +299,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter pig">
+			<div data-time="18" class="column-item filter pig">
 				<article class="item">
 				    <a href="#" class="item-image">
 					    <div class="post-image">
@@ -264,7 +316,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter pig">
+			<div data-time="18" class="column-item filter pig">
 				<article class="item">
 				    <a href="#" class="item-image">
 					    <div class="post-image">
@@ -281,7 +333,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter beef">
+			<div data-time="55" class="column-item filter beef">
 				<article class="item">
 					<a href="#" class="item-image">
 						<div class="post-image">
@@ -298,7 +350,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter beef">
+			<div data-time="55" class="column-item filter beef">
 				<article class="item">
 					<a href="#" class="item-image">
 						<div class="post-image">
@@ -315,7 +367,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter fish">
+			<div data-time="21" class="column-item filter fish">
 				<article class="item">
 					<a href="#" class="item-image">
 						<div class="post-image">
@@ -332,7 +384,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter pizza">
+			<div data-time="19" class="column-item filter pizza">
 				<article class="item">
 					<a href="#" class="item-image">
 						<div class="post-image">
@@ -349,7 +401,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter pasta">
+			<div data-time="19" class="column-item filter pasta">
 				<article class="item">
 					<a href="#" class="item-image">
 						<div class="post-image">
@@ -366,7 +418,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter salad">
+			<div data-time="18" class="column-item filter salad">
 				<article class="item">
 					<a href="#" class="item-image">
 						<div class="post-image">
@@ -383,7 +435,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter salad">
+			<div data-time="18" class="column-item filter salad">
 				<article class="item">
 					<a href="#" class="item-image">
 						<div class="post-image">
@@ -400,7 +452,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter dressing">
+			<div data-time="8" class="column-item filter dressing">
 				<article class="item">
 					<a href="#" class="item-image">
 						<div class="post-image">
@@ -417,7 +469,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter dressing">
+			<div data-time="10" class="column-item filter dressing">
 				<article class="item">
 					<a href="#" class="item-image">
 						<div class="post-image">
@@ -434,7 +486,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter desert">
+			<div data-time="8" class="column-item filter desert">
 				<article class="item">
 					<a href="#" class="item-image">
 						<div class="post-image">
@@ -451,7 +503,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="column-item filter desert">
+			<div data-time="8" class="column-item filter desert">
 				<article class="item">
 					<a href="#" class="item-image">
 						<div class="post-image">
@@ -565,7 +617,7 @@
 		</div>
 	</div>
 </footer>
-
+<script type="text/javascript" src="javascript/modal.js"></script>
 <script type="text/javascript" src="javascript/script.js"></script>
 </body>
 </html>
