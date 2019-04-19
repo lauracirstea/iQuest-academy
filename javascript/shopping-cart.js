@@ -1,18 +1,17 @@
-// -------------- Checkout (adaugare, stergere item din cosul de comanda) --------------------
 var addToCartButton = document.querySelectorAll('.shop-item-button');
-for(var i=0; i<addToCartButton.length; i++) {
+for(var i = 0; i < addToCartButton.length; i++) {
   var button = addToCartButton[i];
   button.addEventListener('click', addToCartClicked);
 }
 
 var removeCartItemButtons = document.querySelectorAll('.delete');
-for(var i=0; i<removeCartItemButtons.length; i++) {
+for(var i = 0; i < removeCartItemButtons.length; i++) {
 	var button = removeCartItemButtons[i];
 	button.addEventListener('click', removeCartItem) 	
 }
 
 var quantityInputs = document.querySelectorAll('.cart-quantity-input');
-for(var i=0; i<quantityInputs.length; i++) {
+for(var i = 0; i < quantityInputs.length; i++) {
 	var input = quantityInputs[i];
 	input.addEventListener('change', quantityChanged);
 }
@@ -51,13 +50,14 @@ function updateCartTotal() {
   var cartItemContainer = document.querySelectorAll('.cart-items')[0];
   var cartRows = cartItemContainer.querySelectorAll('.cart-row');
   var total = 0;
-  for(var i=0; i<cartRows.length; i++) {
+  for(var i = 0; i < cartRows.length; i++) {
     var cartRow = cartRows[i];
     var priceElement = cartRow.querySelectorAll('.cart-price')[0];
     var quantityElement = cartRow.querySelectorAll('.cart-quantity-input')[0];
     var price = parseFloat(priceElement.innerText.replace('lei', ''));
     var quantity = quantityElement.value;
     total = total + (price * quantity);
+    console.log(total);
   }
   document.querySelectorAll('.cart-total-price')[0].innerText = total + ' lei';
 }
@@ -104,11 +104,13 @@ var elementMobile = document.querySelector("#checkout-mobile").querySelectorAll(
   elementDesktop.classList.remove('cart-items');
   elementMobile.classList.add('cart-items');
   elementMobile.classList.remove('cart-items-none');
+  console.log('1');
  } else {
   elementMobile.classList.add('cart-items-none');
   elementMobile.classList.remove('cart-items');
   elementDesktop.classList.add('cart-items');
   elementDesktop.classList.remove('cart-items-none');
+  console.log('2');
  }
 
 var modal = document.querySelector(".modal");
