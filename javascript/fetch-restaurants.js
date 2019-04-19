@@ -3,6 +3,7 @@ var restaurants = JSON.parse(restaurants);
 	var myEl = document.querySelector('.index');
 	var myString = "";
 
+console.log(items);
 	for(var i = 0; i < restaurants.items.length; i++) {
 		var item = restaurants.items[i];
 		myString += `<div class="column-item">

@@ -11,7 +11,7 @@
 <header id="header">
   	<div class="container-nav">
 	    <div class="logo-box">
-	      <a href="/">
+	      <a href="index.html">
 	        <img src="assets/logo/logo.png">
 	      </a>
 	    </div>
@@ -23,66 +23,13 @@
 			    <li><a href="index.html">Acasa</a></li>
 			    <li><a href="about.html">Despre noi</a></li>
 			    <li><a href="contact.html">Contact</a></li>
-			    <li id="myBtnLogin"><a href="#"><i class="fab fa-facebook" id=""></i> Log in </a></li>
-					<div id="myModalLogin" class="modal-login">
-						<div class="modal-content-login">
-						    <span class="close">&times;</span>
-						    <header class="popupHeader">
-								<span class="header_title">Login</span>
-								<span class="modal_close"><i class="fa fa-times"></i></span>
-							</header>
-					    <section class="popupBody">
-							<div class="social_login">
-								<div>
-									<a href="#" class="social_box fb">
-										<span class="icon"><i class="fab fa-facebook-f"></i></span>
-										<span class="icon_title">Conectare cu Facebook</span>
-									</a>
-									<a href="#" class="social_box google">
-										<span class="icon"><i class="fab fa-google"></i></span>
-										<span class="icon_title">Conectare cu Google</span>
-									</a>
-								</div>
-
-								<div class="centeredText">
-									<span>Sau te poti conecta cu adresa de email</span>
-								</div>
-
-								<div class="action_btns">
-									<form class="user_register">
-										<label>Nume complet</label>
-										<input type="text" />
-										<br />
-
-										<label>Adresa e-mail</label>
-										<input type="email" />
-										<br />
-
-										<label>Parola</label>
-										<input type="password" />
-										<br />
-
-										<div class="checkbox">
-												<input id="send_updates" type="checkbox" />
-												<label for="send_updates">Salveaza datele</label>
-										</div>
-
-										<div class="action_btns">
-												<div class="one_half last"><a href="#" class="btn btn_red">Inregistrare</a></div>
-										</div>
-									</form>
-								</div>
-							</div>
-						</section>
-					</div>
-				</div>
 		   </ul>
 	  	</nav>
   	</div>
 </header>
 
 <main>
-	<h1>Bistro Carol</h1>
+	<h1 class="restaurant-name">Bistro Carol</h1>
 	<div class="navbar" id="myBtnFilter">
 		<a href="#" class="btn active" onclick="filterSelection('all')">Arata tot</a>
 		<a href="#" class="btn" onclick="filterSelection('menu')">Meniul zilei</a>
@@ -112,7 +59,7 @@
 	</div>
 	<div class="inner">
 		<div class="container">
-			
+
 		</div>
 		<div class="checkout" id="checkout-desktop">
 			<h3>Comanda</h3>
@@ -214,7 +161,6 @@
 <script type="text/javascript" src="json/foods.json"></script>
 <script type="text/javascript" src="javascript/fetch-foods.js"></script>
 <script type="text/javascript" src="javascript/script.js"></script>
-<script type="text/javascript" src="javascript/modal.js"></script>
 <script type="text/javascript" src="javascript/shopping-cart.js"></script>
 </body>
 </html>

@@ -6,7 +6,7 @@ menu.addEventListener('click', function() {
 });
 
 // ------------------------ search ---------------------
-function myFunction() {
+function Search() {
     var input, filter, index, column, a, i, txtValue;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
@@ -108,5 +108,4 @@ for (var i = 0; i < btns.length; i++) {
 }
 }
 
-//--------------------- JSON -----------------------
 

@@ -1,7 +1,9 @@
 var foodObj = JSON.parse(list);	
 var items = Object.values(foodObj);
-var restaurants = foodObj.foods;
+var restaurantsObj = JSON.parse(restaurants);
+var restaurants = Object.values(restaurantsObj);
 var myEl = document.querySelector('.container');
+var restaurantNameEl = document.querySelector('.restaurant-name'); 
 var myString = "";
 
 var getParams = function (url) {
@@ -23,6 +25,11 @@ const result = foodObj.foods.find( restaurant => {
 	return restaurant.restaurantId === parseInt(urlParams.id)
 });	
 
+var found = restaurants[0].find((el) => {
+  return el.id === result.restaurantId;
+});
+restaurantNameEl.innerHTML= found.name
+
 for(var i = 0; i < result.items.length; i++) {
 	var element = result.items[i];
 	myString += `<div data-time="${element.price}" class="column-item filter ${element.category}">
@@ -42,8 +49,6 @@ for(var i = 0; i < result.items.length; i++) {
 						</div>
 					</article>
 				</div>`
-				console.log(element);
-				console.log(myEl.innerHTML);
 }
 myEl.innerHTML = myString;
 	
