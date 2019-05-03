@@ -1,0 +1,1342 @@
+list = `{
+	"foods": [
+		{
+			"restaurantId": 1,
+			"items": [
+				{
+					"name": "Ciorba de burta",
+					"image": "assets/product/restaurant1/product1.jpg",
+					"price": "10",
+					"ingredients": "burta vita, legume, ou, smantana – 100/380g",
+					"category": "soup"
+				},
+				{
+					"name": "Supa de pui si taitei",
+					"image": "assets/product/restaurant1/product2.jpg",
+					"price": "9",
+					"ingredients": "piept pui, morcov, telina, fidea – 50/380g",
+					"category": "soup"
+				},
+				{
+					"name": "Chicken Burger",
+					"image": "assets/product/restaurant1/product3.jpg",
+					"price": "12",
+					"ingredients": "piept pui, branza cedar, salata, rosii, castraveti acri,ceapa sos – 250g",
+					"category": "burger"
+				},
+				{
+					"name": "Meniu Burger",
+					"image": "assets/product/restaurant1/product4.jpg",
+					"price": "16",
+					"ingredients": "burger, cartofi prajiti, sos – 380g",
+					"category": "menu burger"
+				},
+				{
+					"name": "Meniu aripioare",
+					"image": "assets/product/restaurant1/product5.jpg",
+					"price": "12",
+					"ingredients": "aripioare  pui usor picante, cartofi prajiti, sos coctail 450g",
+					"category": "menu"
+				},
+				{
+					"name": "Crochete de cascaval cu masline",
+					"image": "assets/product/restaurant1/product6.jpg",
+					"price": "12",
+					"ingredients": "crochete de cascaval cu masline 150g",
+					"category": "appetizer"
+				},
+				{
+					"name": "Ciuperci gorgonzola",
+					"image": "assets/product/restaurant1/product7.jpg",
+					"price": "14",
+					"ingredients": "ciuperci la cuptor cu gorgonzola – 200g",
+					"category": "appetizer dressing"
+				},
+				{
+					"name": "Rulouri de ficatei cu bacon",
+					"image": "assets/product/restaurant1/product8.jpg",
+					"price": "14",
+					"ingredients": "200g",
+					"category": "dressing"
+				},
+				{
+					"name": "Piept pui la gratar",
+					"image": "assets/product/restaurant1/product9.jpg",
+					"price": "15",
+					"ingredients": "piept pui, rosii cherry - 200g",
+					"category": "chicken"
+				},
+				{
+					"name": "Pulpa pui la gratar(fara os)",
+					"image": "assets/product/restaurant1/product10.jpg",
+					"price": "15",
+					"ingredients": "pulpa pui, fasole verde - 250g",
+					"category": "chicken"
+				},
+				{
+					"name": "Parma chef de pui si salata rosii cherry",
+					"image": "assets/product/restaurant1/product11.jpg",
+					"price": "25",
+					"ingredients": "piept pui,prosciutto crudo, rosii uscate, smantana, ciuperci, praz, cascaval, condimente–400g",
+					"category": "chicken"
+				},
+				{
+					"name": "Cotlet porc la gratar",
+					"image": "assets/product/restaurant1/product12.jpg",
+					"price": "18",
+					"ingredients": "200g",
+					"category": "pig"
+				},
+				{
+					"name": "Snitel de porc",
+					"image": "assets/product/restaurant1/product13.jpg",
+					"price": "18",
+					"ingredients": "cotlet porc, ou, faina, salata asortata, cartofi pai - 300g",
+					"category": "pig"
+				},
+				{
+					"name": "Muschi de vita cu ciuperci si sos brun",
+					"image": "assets/product/restaurant1/product14.jpg",
+					"price": "55",
+					"ingredients": "muschi de vita cu ciuperci si sos brun – 300g",
+					"category": "beef"
+				},
+				{
+					"name": "Muschi de vita cu sos de piper",
+					"image": "assets/product/restaurant1/product15.jpg",
+					"price": "55",
+					"ingredients": "muschi de vita cu sos de piper – 250g",
+					"category": "beef"
+				},
+				{
+					"name": "File salau la gratar",
+					"image": "assets/product/restaurant1/product16.jpg",
+					"price": "21",
+					"ingredients": "file salau la gratar cu legume – 250g",
+					"category": "fish"
+				},
+				{
+					"name": "Pizza Carol",
+					"image": "assets/product/restaurant1/product17.jpg",
+					"price": "19",
+					"ingredients": "sos rosii, sunca presata, bacon, salam uscat, rosii, masline, ardei, ciuperci, mozzarella",
+					"category": "pizza"
+				},
+				{
+					"name": "Paste Bolognese",
+					"image": "assets/product/restaurant1/product18.jpg",
+					"price": "19",
+					"ingredients": "rosii, carne vita, ulei masline, paste –spaghete sau penne 450g",
+					"category": "pasta"
+				},
+				{
+					"name": "Salata Carol",
+					"image": "assets/product/restaurant1/product19.jpg",
+					"price": "18",
+					"ingredients": "piept de pui, branza feta, salata, castravete, rosie, gogosar, masline, dressing 350g",
+					"category": "salad"
+				},
+				{
+					"name": "Salata Greceasca",
+					"image": "assets/product/restaurant1/product20.jpg",
+					"price": "18",
+					"ingredients": "branza feta, rosii, masline, castravete, salata, ardei gras, ceapa, ulei masline,otet balsamic 350g",
+					"category": "salad"
+				},
+				{
+					"name": "Cartofi wedges",
+					"image": "assets/product/restaurant1/product21.jpg",
+					"price": "8",
+					"ingredients": "250g",
+					"category": "dressing"
+				},
+				{
+					"name": "Orez cu legume",
+					"image": "assets/product/restaurant1/product22.jpg",
+					"price": "10",
+					"ingredients": "orez, ardei gras, ceapa, morcov 300g",
+					"category": "dressing"
+				},
+				{
+					"name": "Papanas traditional",
+					"image": "assets/product/restaurant1/product23.jpg",
+					"price": "8",
+					"ingredients": "papanas traditional 160g cu dulceata de afine sau visine 350g",
+					"category": "desert"
+				},
+				{
+					"name": "Clatite cu ciocolata",
+					"image": "assets/product/restaurant1/product24.jpg",
+					"price": "8",
+					"ingredients": "250g",
+					"category": "desert"
+				}
+			]
+		},
+		{
+			"restaurantId": 2,
+			"items": [
+				{
+					"name": "Ciorba de curcan",
+					"image": "assets/product/restaurant2/product1.jpg",
+					"price": "13",
+					"ingredients": "piept curcan, morcovi, ţelina, ceapa alba, ardei gras",
+					"category": "soup"
+				},
+				{
+					"name": "Piept de pui cu morcovi",
+					"image": "assets/product/restaurant2/product2.jpg",
+					"price": "30",
+					"ingredients": "piept de pui, morcov, sfecla rosie si sos picant",
+					"category": "chickeni"
+				},
+				{
+					"name": "Orez cu carne si fasole verde",
+					"image": "assets/product/restaurant2/product3.jpg",
+					"price": "25",
+					"ingredients": "orez, carne porc, ceapa, morcov, fasole verde",
+					"category": "pig menu"
+				},
+				{
+					"name": "Clatite americane",
+					"image": "assets/product/restaurant2/product4.jpg",
+					"price": "15",
+					"ingredients": "250g",
+					"category": "desert"
+				},
+				{
+					"name": "Muschi de vita ",
+					"image": "assets/product/restaurant2/product5.jpg",
+					"price": "60",
+					"ingredients": "muschi vita, ou posat si rosii",
+					"category": "beef menu"
+				},
+				{
+					"name": "Meniu Burger",
+					"image": "assets/product/restaurant2/product6.jpg",
+					"price": "25",
+					"ingredients": "burger, cartofi prajiti, sos, carne porc",
+					"category": "menu burger"
+				},
+				{
+					"name": "Pulpa pui la gratar",
+					"image": "assets/product/restaurant2/product7.jpg",
+					"price": "30",
+					"ingredients": "pulpa pui, cartofi taranesti, salata asortata",
+					"category": "menu chicken"
+				},
+				{
+					"name": "Sandwich",
+					"image": "assets/product/restaurant2/product8.jpg",
+					"price": "12",
+					"ingredients": "chifla, sunca presata, salata verde, rosii, castraveti, sos",
+					"category": "burger"
+				},
+				{
+					"name": "Coasta de oaie",
+					"image": "assets/product/restaurant2/product9.jpg",
+					"price": "58",
+					"ingredients": "coasta oaie, sos sfecla",
+					"category": "beef menu"
+				},
+				{
+					"name": "Pulpa pui fara os",
+					"image": "assets/product/restaurant2/product10.jpg",
+					"price": "22",
+					"ingredients": "pupa pui fara os, varza, rosii",
+					"category": "chicken menu"
+				},
+				{
+					"name": "Somon file cu legume",
+					"image": "assets/product/restaurant2/product11.jpg",
+					"price": "35", 
+					"ingredients": "somon file,, morcov, varza, castraveti",
+					"category": "fish menu"
+				}
+			]
+		},
+		{
+			"restaurantId": 3,
+			"items": [
+				{
+					"name": "Pizza Salami",
+					"image": "assets/product/restaurant3/product1.jpg",
+					"price": "18",
+					"ingredients": "aluat, salam, mozarella, cascaval",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Taraneasca",
+					"image": "assets/product/restaurant3/product2.jpg",
+					"price": "23",
+					"ingredients": "aluat, salam, sunca presata, carnati, ou, mozzarella",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Formagi",
+					"image": "assets/product/restaurant3/product3.jpg",
+					"price": "21",
+					"ingredients": "aluat, cascaval, mozzarella, branza",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Fiesta",
+					"image": "assets/product/restaurant3/product4.jpg",
+					"price": "22",
+					"ingredients": "aluat, salam, sunca presata, mozzarella",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Spicy",
+					"image": "assets/product/restaurant3/product5.jpg",
+					"price": "21",
+					"ingredients": "aluat, sunca presata, mozzarella, rosii, ardei iute",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Capriciosa",
+					"image": "assets/product/restaurant3/product6.jpg",
+					"price": "22",
+					"ingredients": "aluat, ciuperci, sunca, ton, masline, mozzarella",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Milaneza",
+					"image": "assets/product/restaurant3/product7.jpg",
+					"price": "25",
+					"ingredients": "aluat, fructe mare, mozzarella",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Deliciu",
+					"image": "assets/product/restaurant3/product8.jpg",
+					"price": "24",
+					"ingredients": "aluat, sunca presata, usturoi, mozzarella, sos rosii",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza vegetariana",
+					"image": "assets/product/restaurant3/product9.jpg",
+					"price": "23",
+					"ingredients": "aluat, sos rosii, salata, mozzarella, rosii",
+					"category": "pizza"
+				}
+			]
+		},
+		{
+			"restaurantId": 4,
+			"items": [
+				{
+					"name": "Pizza Salami",
+					"image": "assets/product/restaurant4/product1.jpg",
+					"price": "22",
+					"ingredients": "aluat, salam, sos rosii, mozzarella",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Formagi",
+					"image": "assets/product/restaurant4/product2.jpg",
+					"price": "20",
+					"ingredients": "aluat, mozzarella, cascaval, branza",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Speciala",
+					"image": "assets/product/restaurant4/product3.jpg",
+					"price": "25",
+					"ingredients": "aluat, sunca presata, salata, rosii, ceapa, mozzarella",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Calzone",
+					"image": "assets/product/restaurant4/product4.jpg",
+					"price": "21",
+					"ingredients": "aluat, salam, cascaval, mozzarella, sos rosii",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Sicilana",
+					"image": "assets/product/restaurant4/product5.jpg",
+					"price": "23",
+					"ingredients": "aluat, sunca presata, salata, rosii, ceapa, mozzarella",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Taraneasca",
+					"image": "assets/product/restaurant4/product6.jpg",
+					"price": "24",
+					"ingredients": "aluat, salam, sunca presata, carnati, ou, mozzarella, porumb",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Carbonara",
+					"image": "assets/product/restaurant4/product7.jpg",
+					"price": "22",
+					"ingredients": "aluat, salam, mozzarella, rosii, ardei",
+					"category": "pizza"
+				},
+				{
+					"name": "Salata asortata",
+					"image": "assets/product/restaurant4/product8.jpg",
+					"price": "25",
+					"ingredients": "salata verde, varza, ceapa, sos, masline, piept pui",
+					"category": "salad"
+				},
+				{
+					"name": "Mini pizza",
+					"image": "assets/product/restaurant4/product9.jpg",
+					"price": "10",
+					"ingredients": "aluat, sos rosii, ardei, sunca, salam, mozzarella",
+					"category": "pizza"
+				},
+				{
+					"name": "Pandispan",
+					"image": "assets/product/restaurant4/product10.jpg",
+					"price": "8",
+					"ingredients": "ou, faina, zahar, ciocolata alba, sos afine",
+					"category": "desert"
+				},
+				{
+					"name": "Felie tort ciocolata",
+					"image": "assets/product/restaurant4/product11.jpg",
+					"price": "8",
+					"ingredients": "cacao, ou, zahar, faina, ciocolata, sirop",
+					"category": "desert"
+				},
+				{
+					"name": "Briose",
+					"image": "assets/product/restaurant4/product12.jpg",
+					"price": "4",
+					"ingredients": "cacao, ou, zahar, faina, ciocolata",
+					"category": "desert"
+				}
+			]
+		},
+		{
+			"restaurantId": 5,
+			"items": [
+				{
+					"name": "Sandwich",
+					"image": "assets/product/restaurant5/product1.jpg",
+					"price": "11",
+					"ingredients": "chifla, ou, salata, sos usturoi/rosii, castravete, sunca presata, cascaval",
+					"category": "burger"
+				},
+				{
+					"name": "Meniu pui",
+					"image": "assets/product/restaurant5/product2.jpg",
+					"price": "12",
+					"ingredients": "pulpa pui, salata, cartofi pai, sos",
+					"category": "menu chicken"
+				},
+				{
+					"name": "Salata asortata",
+					"image": "assets/product/restaurant5/product3.jpg",
+					"price": "10",
+					"ingredients": "salata, castraveti, rosii, branza, sos",
+					"category": "salad"
+				},
+				{
+					"name": "Paste umplute",
+					"image": "assets/product/restaurant5/product4.jpg",
+					"price": "18",
+					"ingredients": "paste, carne pui, sos, cascaval",
+					"category": "pasta"
+				},
+				{
+					"name": "Sushi",
+					"image": "assets/product/restaurant5/product5.jpg",
+					"price": "35",
+					"ingredients": "orez, somon file, castravete",
+					"category": "fish"
+				},
+				{
+					"name": "Pulpa pui cu cartofi",
+					"image": "assets/product/restaurant5/product6.jpg",
+					"price": "26",
+					"ingredients": "pupa pui gratar, cartofi taranesti",
+					"category": "menu chicken"
+				},
+				{
+					"name": "Paste Carbonara",
+					"image": "assets/product/restaurant5/product7.jpg",
+					"price": "27",
+					"ingredients": "paste, sos rosii, usturoi, mozzarella",
+					"category": "pasta"
+				},
+				{
+					"name": "Meniu pulpa pui",
+					"image": "assets/product/restaurant5/product8.jpg",
+					"price": "28",
+					"ingredients": "pulpa pui, cartofi pai, salata asortata",
+					"category": "menu chicken"
+				},
+				{
+					"name": "Mini tarta cu fructe",
+					"image": "assets/product/restaurant5/product9.jpg",
+					"price": "6",
+					"ingredients": "250g",
+					"category": "desert"
+				},
+				{
+					"name": "Felie tort ciocolata",
+					"image": "assets/product/restaurant5/product10.jpg",
+					"price": "9",
+					"ingredients": "200g",
+					"category": "desert"
+				},
+				{
+					"name": "Pizza Taraneasca",
+					"image": "assets/product/restaurant5/product11.jpg",
+					"price": "25",
+					"ingredients": "aluat, ardei, sos rosii, mozzarella, salam, sunca, carnati, masline",
+					"category": "pizza"
+				}
+			]
+		},
+		{
+			"restaurantId": 6,
+			"items": [
+				{
+					"name": "Cotlet porc",
+					"image": "assets/product/restaurant6/product1.jpg",
+					"price": "32",
+					"ingredients": "cotlet porc, salata, cartofi taranesti",
+					"category": "menu pig"
+				},
+				{
+					"name": "Spaghete cu sos rosii",
+					"image": "assets/product/restaurant6/product2.jpg",
+					"price": "19",
+					"ingredients": "spaghete, sos, rosii, usturoi, cascaval",
+					"category": "pasta"
+				},
+				{
+					"name": "Sushi",
+					"image": "assets/product/restaurant6/product3.jpg",
+					"price": "34",
+					"ingredients": "peste alb, orez, praz",
+					"category": "fish"
+				},
+				{
+					"name": "Salata asortata",
+					"image": "assets/product/restaurant6/product4.jpg",
+					"price": "23",
+					"ingredients": "salata, busuioc, piept pui, ou, branza, sos, masline, rosii",
+					"category": "salad"
+				},
+				{
+					"name": "Ceafa porc cu legume",
+					"image": "assets/product/restaurant6/product5.jpg",
+					"price": "28",
+					"ingredients": "ceafa porc, legume pe gratar, sos rosii",
+					"category": "menu pig"
+				},
+				{
+					"name": "Supa crema pui",
+					"image": "assets/product/restaurant6/product6.jpg",
+					"price": "12",
+					"ingredients": "piept pui, morcov, ceapa, usturoi, telina",
+					"category": "soup"
+				},
+				{
+					"name": "Somon file cu legume",
+					"image": "assets/product/restaurant6/product7.jpg",
+					"price": "31",
+					"ingredients": "somon file, legume",
+					"category": "fish menu"
+				},
+				{
+					"name": "Bruschete",
+					"image": "assets/product/restaurant6/product8.jpg",
+					"price": "16",
+					"ingredients": "450g",
+					"category": "appetizer"
+				},
+				{
+					"name": "Lava cake cu inghetata",
+					"image": "assets/product/restaurant6/product9.jpg",
+					"price": "12",
+					"ingredients": "300g",
+					"category": "desert"
+				},
+				{
+					"name": "Clatite americane",
+					"image": "assets/product/restaurant6/product10.jpg",
+					"price": "10",
+					"ingredients": "300g",
+					"category": "desert"
+				},
+				{
+					"name": "Spaghete cu fructe de mare",
+					"image": "assets/product/restaurant6/product11.jpg",
+					"price": "29",
+					"ingredients": "spaghete, fructe mare",
+					"category": "pasta"
+				},
+				{
+					"name": "Fagure cu inghetata",
+					"image": "assets/product/restaurant6/product12.jpg",
+					"price": "12",
+					"ingredients": "350g",
+					"category": "desert"
+				}
+			]
+		},
+		{
+			"restaurantId": 7,
+			"items": [
+				{
+					"name": "Supa crema legume",
+					"image": "assets/product/restaurant7/product1.jpg",
+					"price": "9",
+					"ingredients": "ceapa, morcov, rosii, telina, ridichie",
+					"category": "soup"
+				},
+				{
+					"name": "Spaghete cu chiftelute",
+					"image": "assets/product/restaurant7/product2.jpg",
+					"price": "26",
+					"ingredients": "spaghete, sos rosii, carne porc, usturoi",
+					"category": "pasta"
+				},
+				{
+					"name": "Salata asortata",
+					"image": "assets/product/restaurant7/product3.jpg",
+					"price": "26",
+					"ingredients": "salata, rosii, castraveti, somon afumat, sos",
+					"category": "salad"
+				},
+				{
+					"name": "Sushi vegetarian",
+					"image": "assets/product/restaurant7/product4.jpg",
+					"price": "36",
+					"ingredients": "orez, sfecla, castraveti, morcov, sos",
+					"category": "fish"
+				},
+				{
+					"name": "Lava cake",
+					"image": "assets/product/restaurant7/product5.jpg",
+					"price": "13",
+					"ingredients": "250g",
+					"category": "desert"
+				},
+				{
+					"name": "Piept pui",
+					"image": "assets/product/restaurant7/product6.jpg",
+					"price": "30",
+					"ingredients": "piept pui, sfecla, morcovi, sos",
+					"category": "chicken menu"
+				},
+				{
+					"name": "Paste Carbonara",
+					"image": "assets/product/restaurant7/product7.jpg",
+					"price": "23",
+					"ingredients": "paste panne, cascaval, carne porc",
+					"category": "pasta"
+				},
+				{
+					"name": "Salata legume",
+					"image": "assets/product/restaurant7/product8.jpg",
+					"price": "16",
+					"ingredients": "ridichie, ceapa, rosii, orez, seminte, salata, boabe porumb",
+					"category": "salad"
+				},
+				{
+					"name": "Muschi vita cu orez",
+					"image": "assets/product/restaurant7/product9.jpg",
+					"price": "56",
+					"ingredients": "muschi vita. orez, legume",
+					"category": "beef menu"
+				},
+				{
+					"name": "Paella cu fructe de mare",
+					"image": "assets/product/restaurant7/product10.jpg",
+					"price": "36",
+					"ingredients": "orez, ceapa, usturoi, sos, lamaie, fructe mare",
+					"category": "appetizer fish"
+				}
+			]
+		},
+		{
+			"restaurantId": 8,
+			"items": [
+				{
+					"name": "Pizza Taraneasca",
+					"image": "assets/product/restaurant8/product1.jpg",
+					"price": "26",
+					"ingredients": "aluat, ardei, sos rosii, mozzarella, salam, sunca, carnati, masline",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Vegetariana",
+					"image": "assets/product/restaurant8/product2.jpg",
+					"price": "23",
+					"ingredients": "aluat, ardei, rosii, cascaval, mozzarella",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Prosciutto",
+					"image": "assets/product/restaurant8/product3.jpg",
+					"price": "25",
+					"ingredients": "aluat, mozzarella, masline, ciuperci, sunca",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Deliciosa",
+					"image": "assets/product/restaurant8/product4.jpg",
+					"price": "24",
+					"ingredients": "aluat, mozzarella, masline, ciuperci, sunca, rosii, ardei",
+					"category": "pizza"
+				},
+				{
+					"name": "Spaghete Carbonara",
+					"image": "assets/product/restaurant8/product5.jpg",
+					"price": "21",
+					"ingredients": "spaghete, carne porc, sos, masline, rosii",
+					"category": "pasta"
+				},
+				{
+					"name": "Paste panne",
+					"image": "assets/product/restaurant8/product6.jpg",
+					"price": "23",
+					"ingredients": "paste, ciuperci, masline, sos, carne porc",
+					"category": "pasta"
+				},
+				{
+					"name": "Pulpa pui si frigarui pui",
+					"image": "assets/product/restaurant8/product7.jpg",
+					"price": "34",
+					"ingredients": "500g",
+					"category": "chicken"
+				},
+				{
+					"name": "Frigarui pui",
+					"image": "assets/product/restaurant8/product8.jpg",
+					"price": "27",
+					"ingredients": "piept pui, ardei, ciuperci, lamaie, castravete",
+					"category": "chicken"
+				}
+			]
+		},
+		{
+			"restaurantId": 9,
+			"items": [
+				{
+					"name": "Meniu aripioare",
+					"image": "assets/product/restaurant9/product1.jpg",
+					"price": "24",
+					"ingredients": "aripioare pui, cartofi pai, salata",
+					"category": "menu"
+				},
+				{
+					"name": "Crap la gratar",
+					"image": "assets/product/restaurant9/product2.jpg",
+					"price": "29",
+					"ingredients": "250g",
+					"category": "fish menu"
+				},
+				{
+					"name": "Coasta miel",
+					"image": "assets/product/restaurant9/product3.jpg",
+					"price": "38",
+					"ingredients": "coasta miel, sos sfecla",
+					"category": "beef menu"
+				},
+				{
+					"name": "Tocana taraneasca",
+					"image": "assets/product/restaurant9/product4.jpg",
+					"price": "24",
+					"ingredients": "carne porc, sos rosii, ceapa, morcov",
+					"category": "pig"
+				},
+				{
+					"name": "Coasta vita",
+					"image": "assets/product/restaurant9/product5.jpg",
+					"price": "",
+					"ingredients": "coasta vita, mini morcov, ceapa verde",
+					"category": "menu beef"
+				},
+				{
+					"name": "Ceafa porc",
+					"image": "assets/product/restaurant9/product6.jpg",
+					"price": "29",
+					"ingredients": "300g",
+					"category": "menu pig"
+				},
+				{
+					"name": "Cartofi gratinati",
+					"image": "assets/product/restaurant9/product7.jpg",
+					"price": "16",
+					"ingredients": "cartofi, cascaval",
+					"category": "appetizer"
+				},
+				{
+					"name": "Muschi vita cu piure",
+					"image": "assets/product/restaurant9/product8.jpg",
+					"price": "45",
+					"ingredients": "muschi vita, piure cartofi, ardei",
+					"category": "menu beef"
+				},
+				{
+					"name": "Cartofi taranesti cu cotlet porc",
+					"image": "assets/product/restaurant9/product9.jpg",
+					"price": "30",
+					"ingredients": "cartofi, ceapa, cotlet porc, morcov, usturoi, ardei",
+					"category": "menu pig"
+				}
+			]
+		},
+		{
+			"restaurantId": 10,
+			"items": [
+				{
+					"name": "Cartofi taranesti cu carne",
+					"image": "assets/product/restaurant10/product1.jpg",
+					"price": "27",
+					"ingredients": "cartofi, carne porc, patrunjel",
+					"category": "pig menu"
+				},
+				{
+					"name": "Muschi vita",
+					"image": "assets/product/restaurant10/product2.jpg",
+					"price": "57",
+					"ingredients": "250g",
+					"category": "beef"
+				},
+				{
+					"name": "Cotlet porc",
+					"image": "assets/product/restaurant10/product3.jpg",
+					"price": "29",
+					"ingredients": "cotlet porc, sparanghel, cartofi, sos alb",
+					"category": "pig menu"
+				},
+				{
+					"name": "Somon file cu legume",
+					"image": "assets/product/restaurant10/product4.jpg",
+					"price": "35",
+					"ingredients": "somon file, legume la gratar",
+					"category": "fish menu"
+				},
+				{
+					"name": "Peste alp cu orez",
+					"image": "assets/product/restaurant10/product5.jpg",
+					"price": "32",
+					"ingredients": "peste alb, orez, legume",
+					"category": "fish menu"
+				},
+				{
+					"name": "Legume la gratar cu sos",
+					"image": "assets/product/restaurant10/product6.jpg",
+					"price": "",
+					"ingredients": "morcov, rosii, dovlecel",
+					"category": "menu"
+				},
+				{
+					"name": "Cartofi prajiti",
+					"image": "assets/product/restaurant10/product7.jpg",
+					"price": "5",
+					"ingredients": "250g",
+					"category": "appetizer"
+				},
+				{
+					"name": "Orez cu legume in straturi",
+					"image": "assets/product/restaurant10/product8.jpg",
+					"price": "14",
+					"ingredients": "orez, rosii, vinete",
+					"category": "appetizer"
+				},
+				{
+					"name": "Meniu pui",
+					"image": "assets/product/restaurant10/product9.jpg",
+					"price": "21",
+					"ingredients": "piept pui, cartofi pai, salata asortata",
+					"category": "menu chicken"
+				}
+			]
+		},
+		{
+			"restaurantId": 11,
+			"items": [
+				{
+					"name": "Supa crema linte",
+					"image": "assets/product/restaurant11/product1.jpg",
+					"price": "9",
+					"ingredients": "350g",
+					"category": "soup"
+				},
+				{
+					"name": "Tocana cu carne afumata",
+					"image": "assets/product/restaurant11/product2.jpg",
+					"price": "18",
+					"ingredients": "sos rosii, ceapa, ardei, carne porc",
+					"category": "menu pig"
+				},
+				{
+					"name": "Muschi vita cu legume",
+					"image": "assets/product/restaurant11/product3.jpg",
+					"price": "58",
+					"ingredients": "250g",
+					"category": "menu beef"
+				},
+				{
+					"name": "Orez cu ceafa de porc",
+					"image": "assets/product/restaurant11/product4.jpg",
+					"price": "28",
+					"ingredients": "orez, ciuperci, ceafa de porc",
+					"category": "menu pig"
+				},
+				{
+					"name": "Piept de pui cu legume",
+					"image": "assets/product/restaurant11/product5.jpg",
+					"price": "26",
+					"ingredients": "piept pui, cartofi, morcovi, brocolli",
+					"category": "menu chicken"
+				},
+				{
+					"name": "Costite de porc",
+					"image": "assets/product/restaurant11/product6.jpg",
+					"price": "37",
+					"ingredients": "coasta porc, cartofi taranesti, rosie, sos",
+					"category": "menu pig"
+				},
+				{
+					"name": "Cotlet porc",
+					"image": "assets/product/restaurant11/product7.jpg",
+					"price": "26",
+					"ingredients": "cotlet porc, cartofi pai, salata, rosie, castravete",
+					"category": "menu pig"
+				},
+				{
+					"name": "Orez cu muschi vita",
+					"image": "assets/product/restaurant11/product8.jpg",
+					"price": "38",
+					"ingredients": "350g",
+					"category": "menu beef"
+				},
+				{
+					"name": "Prajitura cu ness",
+					"image": "assets/product/restaurant11/product9.jpg",
+					"price": "9",
+					"ingredients": "250g",
+					"category": "desert"
+				},
+				{
+					"name": "Pizza Taraneasca",
+					"image": "assets/product/restaurant11/product10.jpg",
+					"price": "24",
+					"ingredients": "aluat, rosii, boabe porumb, masline, ardei, sunca, mozzarella",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Capriciosa",
+					"image": "assets/product/restaurant11/product11.jpg",
+					"price": "22",
+					"ingredients": "aluat, mozzarella, rosie, ceapa, masline, ou",
+					"category": "pizza"
+				},
+				{
+					"name": "Spaghete Bolognese",
+					"image": "assets/product/restaurant11/product12.jpg",
+					"price": "25",
+					"ingredients": "350g",
+					"category": "pasta"
+				}
+			]
+		},
+		{
+			"restaurantId": 12,
+			"items": [
+				{
+					"name": "Pizza Salami",
+					"image": "assets/product/restaurant12/product1.jpg",
+					"price": "19",
+					"ingredients": "aluat, salam, mozarella, cascaval",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Taraneasca",
+					"image": "assets/product/restaurant12/product2.jpg",
+					"price": "21",
+					"ingredients": "aluat, salam, sunca presata, carnati, ou, mozzarella",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Formagi",
+					"image": "assets/product/restaurant12/product3.jpg",
+					"price": "20",
+					"ingredients": "aluat, cascaval, mozzarella, branza",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Spicy",
+					"image": "assets/product/restaurant12/product4.jpg",
+					"price": "23",
+					"ingredients": "aluat, sunca presata, mozzarella, rosii, ardei iute",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Deliciu",
+					"image": "assets/product/restaurant12/product5.jpg",
+					"price": "22",
+					"ingredients": "aluat, sunca presata, usturoi, mozzarella, sos rosii",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Calzone",
+					"image": "assets/product/restaurant12/product6.jpg",
+					"price": "21",
+					"ingredients": "aluat, salam, cascaval, mozzarella, sos rosii",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Deliciosa",
+					"image": "assets/product/restaurant12/product7.jpg",
+					"price": "22",
+					"ingredients": "aluat, mozzarella, masline, ciuperci, sunca, rosii, ardei",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Margherita",
+					"image": "assets/product/restaurant12/product8.jpg",
+					"price": "19",
+					"ingredients": "aluat, cascaval, mozzarella, sos rosii",
+					"category": "pizza"
+				},
+				{
+					"name": "Pizza Vegetariana",
+					"image": "assets/product/restaurant12/product9.jpg",
+					"price": "19",
+					"ingredients": "aluat, sos rosii, salata, mozzarella, rosii",
+					"category": "pizza"
+				}
+			]
+		},
+		{
+			"restaurantId": 13,
+			"items": [
+				{
+					"name": "Ciorba de burta",
+					"image": "assets/product/restaurant13/product1.jpg",
+					"price": "10",
+					"ingredients": "burta vita, legume, ou, smantana",
+					"category": "soup"
+				},
+				{
+					"name": "Meniu Burger",
+					"image": "assets/product/restaurant13/product2.jpg",
+					"price": "16",
+					"ingredients": "burger, cartofi prajiti, sos",
+					"category": "menu burger"
+				},
+				{
+					"name": "Meniu aripioare",
+					"image": "assets/product/restaurant13/product3.jpg",
+					"price": "21",
+					"ingredients": "aripioare pui usor picante, cartofi prajiti, sos coctail",
+					"category": "menu"
+				},
+				{
+					"name": "Crochete de cascaval cu masline",
+					"image": "assets/product/restaurant13/product4.jpg",
+					"price": "12",
+					"ingredients": "250g",
+					"category": "appetizer"
+				},
+				{
+					"name": "Piept pui la gratar",
+					"image": "assets/product/restaurant13/product5.jpg",
+					"price": "15",
+					"ingredients": "piept pui, rosii cherry",
+					"category": "chicken menu"
+				},
+				{
+					"name": "Pulpa pui la gratar(fara os)",
+					"image": "assets/product/restaurant13/product6.jpg",
+					"price": "15",
+					"ingredients": "pulpa pui, fasole verde",
+					"category": "chicken menu"
+				},
+				{
+					"name": "Parma chef de pui si salata rosii cherry",
+					"image": "assets/product/restaurant13/product7.jpg",
+					"price": "25",
+					"ingredients": "piept pui,prosciutto crudo, rosii uscate, smantana, ciuperci, praz, cascaval",
+					"category": "chicken"
+				},
+				{
+					"name": "Cotlet porc la gratar",
+					"image": "assets/product/restaurant13/product8.jpg",
+					"price": "18",
+					"ingredients": "280g",
+					"category": "menu pig"
+				},
+				{
+					"name": "Snitel de porc",
+					"image": "assets/product/restaurant13/product9.jpg",
+					"price": "28",
+					"ingredients": "cotlet porc, ou, faina, salata asortata, cartofi pai",
+					"category": "menu pig"
+				},
+				{
+					"name": "Muschi de vita cu sos de piper",
+					"image": "assets/product/restaurant13/product10.jpg",
+					"price": "55",
+					"ingredients": "muschi de vita cu sos de piper",
+					"category": "beef menu"
+				},
+				{
+					"name": "File salau la gratar",
+					"image": "assets/product/restaurant13/product11.jpg",
+					"price": "29",
+					"ingredients": "250g",
+					"category": "fish"
+				},
+				{
+					"name": "Pizza Carol",
+					"image": "assets/product/restaurant13/product12.jpg",
+					"price": "26",
+					"ingredients": "sos rosii, sunca presata, bacon, salam uscat, rosii, masline, ardei gras, ciuperci, ceapa rosie, mozzarella",
+					"category": "pizza"
+				},
+				{
+					"name": "Paste Bolognese",
+					"image": "assets/product/restaurant13/product13.jpg",
+					"price": "22",
+					"ingredients": "rosii, carne vita, ulei masline, paste –spaghete sau penne",
+					"category": "pasta"
+				},
+				{
+					"name": "Salata Greceasca",
+					"image": "assets/product/restaurant13/product14.jpg",
+					"price": "18",
+					"ingredients": "branza feta, rosii, masline, castravete, salata, ardei gras, ceapa, ulei masline,otet balsamic",
+					"category": "salad"
+				},
+				{
+					"name": "Cartofi wedges",
+					"image": "assets/product/restaurant13/product15.jpg",
+					"price": "9",
+					"ingredients": "250g",
+					"category": "appetizer"
+				},
+				{
+					"name": "Orez cu legume",
+					"image": "assets/product/restaurant13/product16.jpg",
+					"price": "10",
+					"ingredients": "orez, ardei gras, ceapa, morcov",
+					"category": "appetizer"
+				},
+				{
+					"name": "Papanas traditional",
+					"image": "assets/product/restaurant13/product17.jpg",
+					"price": "8",
+					"ingredients": "papanas traditional 160g cu dulceata de afine sau visine",
+					"category": "desert"
+				}
+			]
+		},
+		{
+			"restaurantId": 14,
+			"items": [
+				{
+					"name": "Orez yangzhou",
+					"image": "assets/product/restaurant14/product1.jpg",
+					"price": "13",
+					"ingredients": "orez, oua, porumb, mazare, morcovi, sare ,condimente chinezesti, jambon de pui, ulei",
+					"category": "fish"
+				},
+				{
+					"name": "Sushi cu fructe de mare",
+					"image": "assets/product/restaurant14/product2.jpg",
+					"price": "36",
+					"ingredients": "orez, fructe de mare",
+					"category": "fish"
+				},
+				{
+					"name": "Sushi cu peste",
+					"image": "assets/product/restaurant14/product3.jpg",
+					"price": "28",
+					"ingredients": "orez, somon afumat",
+					"category": "fish"
+				},
+				{
+					"name": "Pachetele",
+					"image": "assets/product/restaurant14/product4.jpg",
+					"price": "24",
+					"ingredients": "260g",
+					"category": "fish"
+				},
+				{
+					"name": "Sushi cu legume",
+					"image": "assets/product/restaurant14/product5.jpg",
+					"price": "22",
+					"ingredients": "orez, morcov, ardei",
+					"category": "fish"
+				},
+				{
+					"name": "Creveti",
+					"image": "assets/product/restaurant14/product6.jpg",
+					"price": "12",
+					"ingredients": "280g"
+				},
+				{
+					"name": "Sushi vegetarian",
+					"image": "assets/product/restaurant14/product7.jpg",
+					"price": "10",
+					"ingredients": "orez, salata, castravete, ardei"
+				},
+				{
+					"name": "Urechi de lemn",
+					"image": "assets/product/restaurant14/product8.jpg",
+					"price": "18",
+					"ingredients": "urechi de lemn, castraveti, sare , piper alb, usturoi",
+					"category": "fish"
+				},
+				{
+					"name": "Somon afumat cu orez",
+					"image": "assets/product/restaurant14/product9.jpg",
+					"price": "26",
+					"ingredients": "somon afumat, orez",
+					"category": "fish"
+				}
+			]
+		},
+		{
+			"restaurantId": 15,
+			"items": [
+				{
+					"name": "Crab la cuptor",
+					"image": "assets/product/restaurant15/product1.jpg",
+					"price": "29",
+					"ingredients": "360g",
+					"category": "fish"
+				},
+				{
+					"name": "Coasta de miel",
+					"image": "assets/product/restaurant15/product2.jpg",
+					"price": "34",
+					"ingredients": "coasta miel, mini morcov, sparanghel",
+					"category": "beef"
+				},
+				{
+					"name": "Coasta de port",
+					"image": "assets/product/restaurant15/product3.jpg",
+					"price": "38",
+					"ingredients": "coasta porc, cartofi taranesti",
+					"category": "pig menu"
+				},
+				{
+					"name": "Cartofi gratinati",
+					"image": "assets/product/restaurant15/product4.jpg",
+					"price": "16",
+					"ingredients": "350g",
+					"category": "appetizer"
+				},
+				{
+					"name": "Salata asortata",
+					"image": "assets/product/restaurant15/product5.jpg",
+					"price": "15",
+					"ingredients": "260g",
+					"category": "salad"
+				},
+				{
+					"name": "Pizza Taraneasca",
+					"image": "assets/product/restaurant15/product6.jpg",
+					"price": "26",
+					"ingredients": "aluat, sunca presata, carnati, sos rosii, masline, ciuperci",
+					"category": "pizza"
+				},
+				{
+					"name": "Briose",
+					"image": "assets/product/restaurant15/product7.jpg",
+					"price": "8",
+					"ingredients": "280g",
+					"category": "desert"
+				},
+				{
+					"name": "Pizza Margherita",
+					"image": "assets/product/restaurant15/product8.jpg",
+					"price": "19",
+					"ingredients": "aluat, sos rosii, usturoi, mozzarella",
+					"category": "pizza"
+				},
+				{
+					"name": "Piept de pui",
+					"image": "assets/product/restaurant15/product9.jpg",
+					"price": "24",
+					"ingredients": "piept pui, rosii cherry",
+					"category": "chicken menu"
+				}
+			]
+		},
+		{
+			"restaurantId": 16,
+			"items": [
+				{
+					"name": "Burger",
+					"image": "assets/product/restaurant16/product1.jpg",
+					"price": "10",
+					"ingredients": "chifla, rosie, castravete, carne porc, salata, sos",
+					"category": "burger"
+				},
+				{
+					"name": "Meniu Burger",
+					"image": "assets/product/restaurant16/product2.jpg",
+					"price": "24",
+					"ingredients": "burger, cartofi pai, salata, sos",
+					"category": "burger menu"
+				},
+				{
+					"name": "Meniu aripioare",
+					"image": "assets/product/restaurant16/product3.jpg",
+					"price": "26",
+					"ingredients": "aripioare pui usor picante, cartofi prajiti, sos coctail",
+					"category": "menu"
+				},
+				{
+					"name": "Snitel de porc",
+					"image": "assets/product/restaurant16/product4.jpg",
+					"price": "24",
+					"ingredients": "cotlet porc, ou, faina, salata asortata, cartofi pai",
+					"category": "menu chicken"
+				},
+				{
+					"name": "Burger",
+					"image": "assets/product/restaurant16/product5.jpg",
+					"price": "9",
+					"ingredients": "chifla, carne porc, rosie, castravete, cascaval",
+					"category": "burger"
+				},
+				{
+					"name": "Burger cu cartofi pai",
+					"image": "assets/product/restaurant16/product6.jpg",
+					"price": "16",
+					"ingredients": "chifla, carne porc, rosie, castravete, cascaval, cartofi pai",
+					"category": "burger"
+				},
+				{
+					"name": "Burger de pui",
+					"image": "assets/product/restaurant16/product7.jpg",
+					"price": "18",
+					"ingredients": "chifla, piept de pui, rosie, castravete, cascaval, cartofi pai",
+					"category": "burger"
+				},
+				{
+					"name": "Meniu burger",
+					"image": "assets/product/restaurant16/product8.jpg",
+					"price": "25",
+					"ingredients": "chifla, carne porc, rosie, castravete, cascaval, cartofi pai",
+					"category": "burger menu"
+				},
+				{
+					"name": "Sandwich",
+					"image": "assets/product/restaurant16/product9.jpg",
+					"price": "9",
+					"ingredients": "chifla, varza, cascaval, castravete, rosie, ceapa",
+					"category": "burger"
+				}
+			]
+		}
+	]
+}`
