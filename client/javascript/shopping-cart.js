@@ -57,12 +57,12 @@ function updateCartTotal() {
     var price = parseFloat(priceElement.innerText.replace('lei', ''));
     var quantity = quantityElement.value;
     total = total + (price * quantity);
-    console.log(total);
   }
   document.querySelectorAll('.cart-total-price')[0].innerText = total + ' lei';
 }
 
-function commandClicked() {
+function commandClicked(e) {
+  e.preventDefault();
   alert('Multumim pentru comanda plasata!');
   var cartItems = document.querySelectorAll('.cart-items')[0];
   while (cartItems.hasChildNodes()) {

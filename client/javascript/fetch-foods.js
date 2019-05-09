@@ -11,9 +11,19 @@ var getParams = function (url) {
 	return params;
 };
 
-
+var restaurantNameEl = document.querySelector('.restaurant-name'); 
+	 
 var urlParams = getParams(window.location.search);
 filterFood(parseInt(urlParams.id));
+var restaurants = `http://localhost:3000/restaurants/${urlParams.id}`;
+
+fetch(restaurants)
+.then(function(response) {
+	return response.json();
+})
+.then(function(myRest) {
+	restaurantNameEl.innerHTML = myRest.name
+});
 
 function filterFood(restaurantId) {	
 	var food = `http://localhost:3000/restaurants/${restaurantId}/foods`;
@@ -48,12 +58,10 @@ function filterFood(restaurantId) {
 		myEl.innerHTML = myString;
 		document.querySelector("#myBtnFilter .all").click()
 
-		// Query the items only after the fetch promise is resolved
 		var addToCartButton = document.querySelectorAll('.shop-item-button');
 		for(var i = 0; i < addToCartButton.length; i++) {
 		  var button = addToCartButton[i];
 
-		  // Attach a click event listener on each checkout button
 		  button.addEventListener('click', addToCartClicked);
 		}
 
