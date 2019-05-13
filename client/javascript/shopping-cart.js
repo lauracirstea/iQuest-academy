@@ -16,7 +16,8 @@ for(var i = 0; i < quantityInputs.length; i++) {
 	input.addEventListener('change', quantityChanged);
 }
 
-document.querySelectorAll('.command-button')[0].addEventListener('click', commandClicked);
+document.querySelectorAll('.command-button-desktop')[0].addEventListener('click', commandClicked);
+document.querySelectorAll('.command-button-mobile')[0].addEventListener('click', commandClicked);
 
 function addItemToCart(title, price, imageSrc){
   var cartRow = document.createElement('div');
@@ -50,15 +51,16 @@ function updateCartTotal() {
   var cartItemContainer = document.querySelectorAll('.cart-items')[0];
   var cartRows = cartItemContainer.querySelectorAll('.cart-row');
   var total = 0;
+
   for(var i = 0; i < cartRows.length; i++) {
     var cartRow = cartRows[i];
     var priceElement = cartRow.querySelectorAll('.cart-price')[0];
     var quantityElement = cartRow.querySelectorAll('.cart-quantity-input')[0];
-    var price = parseFloat(priceElement.innerText.replace('lei', ''));
+    var price = parseFloat(priceElement.innerHTML.replace('lei', ''));
     var quantity = quantityElement.value;
     total = total + (price * quantity);
   }
-  document.querySelectorAll('.cart-total-price')[0].innerText = total + ' lei';
+  cartItemContainer.parentElement.querySelectorAll('.cart-total-price')[0].innerText = total + ' lei';
 }
 
 function commandClicked(e) {
@@ -109,6 +111,7 @@ var elementMobile = document.querySelector("#checkout-mobile").querySelectorAll(
   elementMobile.classList.remove('cart-items');
   elementDesktop.classList.add('cart-items');
   elementDesktop.classList.remove('cart-items-none');
+  elementMobile.classList.remove('cart-items-none');
  }
 
 var modal = document.querySelector(".modal");
